@@ -7,6 +7,6 @@ Package.on_use(function(api, where) {
     api.add_files(['sankey.js']);
 
     if (api.export) {
-        api.export('d3.sankey');
+        api.export('sankey');
     }
 });
