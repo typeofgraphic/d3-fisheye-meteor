@@ -1,17 +1,13 @@
-# Sankey Diagrams
+# D3 FishEye Plugin for Meteor
 
-Demo: <http://bost.ocks.org/mike/sankey/>
+Demo: <http://bost.ocks.org/mike/fisheye/>
 
 ```js
-var sankey = d3.sankey()
-    .size([width, height])
-    .nodeWidth(15)
-    .nodePadding(10)
-    .nodes(energy.nodes)
-    .links(energy.links)
-    .layout(32);
+var fisheye = d3.fisheye.circular()
+  .radius(200)
+  .distortion(2);
 ```
 
 ```
-var path = sankey.link();
+var path = fisheye.link();
 ```
