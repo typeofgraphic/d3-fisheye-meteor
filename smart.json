@@ -1,9 +1,9 @@
 {
-    "name": "d3-sankey",
-    "description": "Meteor package for the Sankey D3 plugin",
-    "homepage": "https://github.com/Phocion/d3-sankey",
+    "name": "d3-fisheye",
+    "description": "Meteor package for the Fisheye D3 plugin",
+    "homepage": "https://github.com/d3/d3-plugins/tree/master/fisheye",
     "author": "mbostock",
     "version": "1.0",
-    "git": "https://github.com/Phocion/d3-sankey.git",
+    "git": "https://github.com/typeofgraphic/d3-fisheye-meteor.git",
     "packages": {}
 }
